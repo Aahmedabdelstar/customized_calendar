@@ -9,6 +9,8 @@ abstract class DB {
 
   static int get _version => 1;
 
+
+
   static Future<void> init() async {
     try {
       String _path = await getDatabasesPath();

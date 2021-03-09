@@ -74,4 +74,6 @@ class ThemeNotifier extends ChangeNotifier {
       _prefs = await SharedPreferences.getInstance();
     }
   }
+
+
 }
